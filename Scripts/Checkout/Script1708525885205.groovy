@@ -27,5 +27,7 @@ WebUI.click(findTestObject('Page_Swag Labs/a_Swag Labs_shopping_cart_link'))
 
 WebUI.click(findTestObject('Page_Swag Labs/button_Checkout'))
 
+WebUI.verifyTextPresent('Your Information', false)
+
 WebUI.closeBrowser()
 

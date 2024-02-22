@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'test.openbrowser.browser'()
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'), 5)
+
 CustomKeywords.'test.login.tosourcedemo'()
 
 WebUI.closeBrowser()

@@ -25,5 +25,7 @@ WebUI.click(findTestObject('Page_Swag Labs/Page_Swag Labs/button_Open Menu'))
 
 WebUI.click(findTestObject('Page_Swag Labs/a_Logout'))
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'), 5)
+
 WebUI.closeBrowser()
 

@@ -21,7 +21,11 @@ CustomKeywords.'test.openbrowser.browser'()
 
 CustomKeywords.'test.login.tosourcedemo'()
 
+
+WebUI.verifyElementPresent(findTestObject('Page_Swag Labs/Page_Swag Labs/button_Add to cart'), 5)
+
 WebUI.click(findTestObject('Page_Swag Labs/Page_Swag Labs/button_Add to cart'))
+
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
