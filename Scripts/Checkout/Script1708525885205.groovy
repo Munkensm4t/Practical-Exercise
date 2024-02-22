@@ -17,19 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def y = findTestData('Data Files/account')
-def username = y.getObjectValue('Username', 1)
-def password = y.getObjectValue('Password', 1)
+CustomKeywords.'test.openbrowser.browser'()
 
-WebUI.openBrowser('')
+CustomKeywords.'test.login.tosourcedemo'()
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+WebUI.click(findTestObject('Page_Swag Labs/Page_Swag Labs/button_Add to cart'))
 
-WebUI.setText(findTestObject('Page_Swag Labs/input_Swag Labs_user-name'), username)
+WebUI.click(findTestObject('Page_Swag Labs/a_Swag Labs_shopping_cart_link'))
 
-WebUI.setText(findTestObject('Page_Swag Labs/input_Swag Labs_password'), password)
+WebUI.click(findTestObject('Page_Swag Labs/button_Checkout'))
 
-WebUI.click(findTestObject('Page_Swag Labs/input_Swag Labs_login-button'))
-
-WebUI.click(findTestObject('Page_Swag Labs/div_Sauce Labs Backpack'))
+WebUI.closeBrowser()
 

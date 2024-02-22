@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "733128CCC7F3EB7C109AE151B11CAEC6",
+  "keywordClasses": [
+    {
+      "name": "test.login",
+      "keywordMethods": [
+        {
+          "name": "tosourcedemo",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

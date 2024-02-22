@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "F4372418FD9BB7BEC6C4BEE87CA4C312",
+  "keywordClasses": [
+    {
+      "name": "test.openbrowser",
+      "keywordMethods": [
+        {
+          "name": "browser",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
